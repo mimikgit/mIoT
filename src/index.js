@@ -45,7 +45,7 @@ app.post('/notification', (req, res) => {
 //
 app.post('/mqtt', (req, res) => {
   if (!req.body) {
-    res.writeError(new ApiError('missing JSON body'));
+    res.writeError(new ApiError(400, 'missing JSON body'));
     return;
   }
 
