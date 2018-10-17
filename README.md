@@ -26,7 +26,11 @@ Please visit the [releases section](https://github.com/mimikgit/mIoT/releases) o
     3) If you have not downloaded the latest built version of the microservice at [here](https://github.com/mimikgit/mIoT/releases), please download it now.
 3) Now you are ready to deploy this microservice on the edgeSDK, please run the following command on the bash terminal: <br/>**Note: For Windows user, please download [Cygwin](https://cygwin.com/install.html) or [Git Bash](https://git-scm.com/downloads) to perform this.**<br/><br/>**Attention: Please run the following commend under the same directory of your downloaded microservice file.**<br/><br/>
 
+    The following curl command is for deploying this microservice to the edgeSDK:
+
     ```curl -i -H 'Authorization: Bearer **Replace withYourToken**' -F "image=@iot-v1.tar" http://localhost:8083/mcm/v1/images```
+
+    The following curl command is for specifying the environment variable:
 
     **Note**: You can always specify your own PUB_TOPIC and PUB_URI below to handle notifications and categorize the data payload.
 
@@ -34,7 +38,7 @@ Please visit the [releases section](https://github.com/mimikgit/mIoT/releases) o
 
 4) The output of the above command will return status code of 200 after the deployment is successful.
 
-5) Now you can read about the microservice APIs in this microservice and check its functionalities.
+5) Now you can read about the APIs in this microservice and check their functionalities on [SwaggerHub](https://app.swaggerhub.com/apis/mimik/mIoT/1.0.0).
 
 <h2>How to build a microservice</h2>
 
@@ -87,4 +91,3 @@ Steps to build:
     - deploy/  image file for the container
 
 For more details about the **src/** directory, please visit the README file under the **src/** directory.
-
