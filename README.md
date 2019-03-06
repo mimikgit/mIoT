@@ -8,6 +8,8 @@ This open source mIoT microservice created by the mimik team is an example IoT (
 
 # Releases & Deployment
 
+For latest update: https://developer.mimik.com/docs/microservices/deploy
+
 <h2> How to obtain the built-version of this microservice?</h2>
 
 Please visit the [releases section](https://github.com/mimikgit/mIoT/releases) of this GitHub page to download the ready-to-deploy container image file of this microservice.
@@ -18,7 +20,7 @@ Please visit the [releases section](https://github.com/mimikgit/mIoT/releases) o
 
 2. Please check that you have performed all the following prerequisite steps to setup you edgeSDK on your targeted platform:
 
-    1) Register yourself on mimik's [developer portal](https://developers.mimik360.com/docs/1.2.0/getting-started/creating-a-developer-account.html) and add your application information to the portal to get authorization of edgeSDK access. **Note: For information about Redirect URL, please go to [link](https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type).** <br/><br/>**Attention: Please safe keep your App-ID and Redirect URL for OAuth authorization later on.**<br/><br/>
+    1) Register yourself on mimik's [developer portal](https://developer.mimik.com/docs/getting-started/developeraccount) and add your application information to the portal to get authorization of edgeSDK access. **Note: For information about Redirect URL, please go to [link](https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type).** <br/><br/>**Attention: Please safe keep your App-ID and Redirect URL for OAuth authorization later on.**<br/><br/>
     2) Get your **edgeSDK access token** from following OAuth tool of your targeted platform: <br/><br/>Please read this on how to use the OAuth tool: [Instruction on How to use the OAuth tool](https://github.com/mimikgit/edgeSDK/tree/master/tools/oauthtool).<br/><br/>
 [OAuthtool application for Windows](https://github.com/mimikgit/oauthtool/releases/download/v1.1.0/mimik.OAuth.tool.Setup.1.1.0.exe)<br/>
 [OAuthtool application for MacOs](https://github.com/mimikgit/oauthtool/releases/download/v1.1.0/mimik.OAuth.tool-1.1.0.dmg)<br/>
